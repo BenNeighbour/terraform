@@ -9,6 +9,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
+
+	//lint:ignore SA1019 openpgp is deprecated but there are no good alternatives yet
 	"golang.org/x/crypto/openpgp"
 )
 
