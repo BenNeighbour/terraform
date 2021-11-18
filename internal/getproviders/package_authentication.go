@@ -9,7 +9,7 @@ import (
 	"log"
 	"strings"
 
-	//lint:ignore SA1019 openpgp is deprecated but there are no good alternatives yet
+	//lint:file-ignore SA1019 openpgp is deprecated but there are no good alternatives yet
 	"golang.org/x/crypto/openpgp"
 	openpgpArmor "golang.org/x/crypto/openpgp/armor"
 	openpgpErrors "golang.org/x/crypto/openpgp/errors"
